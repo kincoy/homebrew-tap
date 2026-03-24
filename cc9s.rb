@@ -1,28 +1,28 @@
 class Cc9s < Formula
-  desc "A k9s-inspired TUI for managing Claude Code sessions"
+  desc "A k9s-inspired TUI for managing Claude Code sessions, skills, and agents"
   homepage "https://github.com/kincoy/cc9s"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/kincoy/cc9s/releases/download/v#{version}/cc9s-darwin-amd64"
-      sha256 "9ce679a2ee6d22bcd635d640946fcc8d5421a6a90bbacd3b263be80ff11256c3"
+      sha256 "eb7043d0a5cd82e8f7cee437290f2e4a00604b5a3d3ea810eac1c4f4a5b50d55"
     end
     on_arm do
       url "https://github.com/kincoy/cc9s/releases/download/v#{version}/cc9s-darwin-arm64"
-      sha256 "46bb7170f2abbc8473156ae9e227ab1f0e02305eb5a2ce6e601a3d1b90cab0e7"
+      sha256 "2a5fc71bf66db71e97915a8b48ab12c75446c84abc8021677afbde057b2cdd94"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kincoy/cc9s/releases/download/v#{version}/cc9s-linux-amd64"
-      sha256 "b42d32ffb357773a793f551169aa824b08ad6b99366d6b227026cdf6a0b64f8f"
+      sha256 "67eecee84c7954a873d4b0fa8767f6b616e200d8109fd0c5442c3ea8ad68c733"
     end
     on_arm do
       url "https://github.com/kincoy/cc9s/releases/download/v#{version}/cc9s-linux-arm64"
-      sha256 "b9f04e0bd8e093c1fd79881b5ca83cc4174b670d25eb9327c40828730600d262"
+      sha256 "165d9ba09f40551c57dec50b9d2976d22eee3dae840cd18f69967da59f02a860"
     end
   end
 
