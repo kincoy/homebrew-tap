@@ -7,22 +7,22 @@ class Cc9s < Formula
   on_macos do
     on_intel do
       url "https://github.com/kincoy/cc9s/releases/download/v#{version}/cc9s-darwin-amd64"
-      sha256 "cdea1448d0a762a98d3c71d2cf2059fcb15c99b962dfce3c842f1d3d1cd0bf74"
+      sha256 "9ce679a2ee6d22bcd635d640946fcc8d5421a6a90bbacd3b263be80ff11256c3"
     end
     on_arm do
       url "https://github.com/kincoy/cc9s/releases/download/v#{version}/cc9s-darwin-arm64"
-      sha256 "6a92c961ffdf24ce10ed0cca83ef917643f920b67f49be0139db72c706d5b0e9"
+      sha256 "46bb7170f2abbc8473156ae9e227ab1f0e02305eb5a2ce6e601a3d1b90cab0e7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kincoy/cc9s/releases/download/v#{version}/cc9s-linux-amd64"
-      sha256 "78cbf9d489150bb299ff58020bc7445db0d40c0353fb7622b2d3e15954894440"
+      sha256 "b42d32ffb357773a793f551169aa824b08ad6b99366d6b227026cdf6a0b64f8f"
     end
     on_arm do
       url "https://github.com/kincoy/cc9s/releases/download/v#{version}/cc9s-linux-arm64"
-      sha256 "2afddc1e0367ccf147cefeec2aac3ffbebcdbdcbb55cea87d67be884145d8686"
+      sha256 "b9f04e0bd8e093c1fd79881b5ca83cc4174b670d25eb9327c40828730600d262"
     end
   end
 
