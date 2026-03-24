@@ -1,28 +1,28 @@
 class Cc9s < Formula
   desc "A k9s-inspired TUI for managing Claude Code sessions"
   homepage "https://github.com/kincoy/cc9s"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/kincoy/cc9s/releases/download/v#{version}/cc9s-darwin-amd64"
-      sha256 "bb47787b887cc31163320a48bf9a75cf50bbef66bd32cd3785216c361a3eada0"
+      sha256 "cdea1448d0a762a98d3c71d2cf2059fcb15c99b962dfce3c842f1d3d1cd0bf74"
     end
     on_arm do
       url "https://github.com/kincoy/cc9s/releases/download/v#{version}/cc9s-darwin-arm64"
-      sha256 "2f07328f7383b144bb4391a9f10861f79a58a0bd679e65bcba3cb82a0d34a8f2"
+      sha256 "6a92c961ffdf24ce10ed0cca83ef917643f920b67f49be0139db72c706d5b0e9"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kincoy/cc9s/releases/download/v#{version}/cc9s-linux-amd64"
-      sha256 "2d88fd29755eab983460d3b8c22bab84a459204a2c2eb37d1f6348aa52ce865b"
+      sha256 "78cbf9d489150bb299ff58020bc7445db0d40c0353fb7622b2d3e15954894440"
     end
     on_arm do
       url "https://github.com/kincoy/cc9s/releases/download/v#{version}/cc9s-linux-arm64"
-      sha256 "92a046b798529c04691863c486e62252e2e3fe0cf787e88b290fd6d24d6fd8e9"
+      sha256 "2afddc1e0367ccf147cefeec2aac3ffbebcdbdcbb55cea87d67be884145d8686"
     end
   end
 
